@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "officepy/extension": true
+  }
+}

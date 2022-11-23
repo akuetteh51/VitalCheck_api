@@ -1,0 +1,7 @@
+{
+    "NotebookApp": {
+        "nbserver_extensions": {
+            "officepy.nbserver_extension.server_extension": true
+        }
+    }
+}
