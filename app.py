@@ -88,7 +88,7 @@ def sensorData():
     with connection:
         with connection.cursor() as cursor:
             cursor.execute("SELECT * FROM Sensor_data")
-            data=cursor.fetchall()[0]
+            data=cursor.fetchall()[-1]
             print(data)
             
     return {"data":{"temperature": data[1],"weight":data[2],"BMP":data[3],"height":data[4]}},200
